@@ -1,0 +1,28 @@
+h1{
+    color :aqua;
+    background-color: #2cb359;
+}
+.container{
+    /* display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+     display: grid;
+    /* gap:10px; */
+    /* grid-template-columns: 50%  25% 25%;  */
+    grid-template-rows: 50% 50%;
+}
+h2{
+    border: 1px solid black;
+    padding: 20px;
+    color: wheat;
+    background-color: blue;
+}
+.container1{
+    display: grid;
+    gap:10px;
+    grid-template-columns: 50%  25% 25%; 
+    /* grid-template-rows: 70% 50% 40%; */
+    /* grid-template-rows: 70% 50% 40%; */
+}
